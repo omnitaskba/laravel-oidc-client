@@ -11,6 +11,7 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Validation\ValidationException;
 use Maicol07\OIDCClient\Auth\OIDCGuard;
 
@@ -60,7 +61,7 @@ class OIDCController extends Controller
         $this->guard()->logout();
 
         $request->session()->invalidate();
-
+        Session::flush();
         return redirect()->intended(config('oidc.redirect_path_after_logout'));
     }
 
