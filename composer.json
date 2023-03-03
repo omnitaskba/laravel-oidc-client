@@ -4,7 +4,7 @@
     "license": "MIT",
     "require": {
         "php": ">=8.0",
-        "omnitask/oidc-client" : "*",
+        "omnitaskba/oidc-client" : "*",
         "laravel/framework": "^8"
     },
     "require-dev": {
