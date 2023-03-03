@@ -4,7 +4,7 @@
     "license": "MIT",
     "require": {
         "php": ">=8.0",
-        "maicol07/oidc-client": "^2",
+        "maicol07/oidc-client": "^3.0",
         "laravel/framework": "^10"
     },
     "require-dev": {
