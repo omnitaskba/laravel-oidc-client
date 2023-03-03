@@ -1,5 +1,5 @@
 {
-    "name": "maicol07/laravel-oidc-client",
+    "name": "omnitaskba/laravel-oidc-client",
     "version": "1.0.0",
     "license": "MIT",
     "require": {
