@@ -5,7 +5,7 @@
     "require": {
         "php": ">=8.0",
         "maicol07/oidc-client": "^2",
-        "laravel/framework": "^8"
+        "laravel/framework": "^10"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
